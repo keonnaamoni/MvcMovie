@@ -6,12 +6,22 @@ using System.Web.Mvc;
 
 namespace MvcMovie.Controllers
 {
-    public class HelloWorldControler : Controller
+    public class HelloWorldController : Controller
     {
-        // GET: HelloWorldControler
-        public ActionResult Index()
+        // 
+        // GET: /HelloWorld/ 
+
+        public string Index()
         {
-            return View();
+            return "This is my <b>default</b> action...";
+        }
+
+        // 
+        // GET: /HelloWorld/Welcome/ 
+
+        public string Welcome()
+        {
+            return "This is the Welcome action method...";
         }
     }
 }
