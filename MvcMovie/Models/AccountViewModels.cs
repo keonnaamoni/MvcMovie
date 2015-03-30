@@ -49,7 +49,7 @@ namespace MvcMovie.Models
     public class LoginViewModel
     {
         [Required]
-        [Display(Name = "Email")]
+        [Display(Name = "User Id")]
         [EmailAddress]
         public string Email { get; set; }
 
