@@ -14,8 +14,9 @@ namespace MvcMovie.Controllers
     {
         private MovieDBContext db = new MovieDBContext();
 
-        public ActionResult Index(string searchString)
+        public ActionResult Index(string id)
         {
+            string searchString = id;
             var movies = from m in db.Movies
                          select m;
 
