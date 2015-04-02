@@ -42,13 +42,9 @@ namespace MvcMovie.Controllers
         }
 
 
-        //search by Realease Year
-
-    }
-
         // GET: Movies
-    //    public ActionResult Index()
-      //  {
+        //    public ActionResult Index()
+        //  {
         //    return View(db.Movies.ToList());
         //}
 
@@ -65,7 +61,7 @@ namespace MvcMovie.Controllers
                 return HttpNotFound();
             }
             return View(movie);
-        
+        }
 
         // GET: Movies/Create
         public ActionResult Create()
