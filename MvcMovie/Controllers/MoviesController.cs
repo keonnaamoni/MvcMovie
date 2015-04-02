@@ -44,7 +44,7 @@ namespace MvcMovie.Controllers
 
         //search by Realease Year
 
-  
+    }
 
         // GET: Movies
     //    public ActionResult Index()
