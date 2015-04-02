@@ -65,7 +65,7 @@ namespace MvcMovie.Controllers
                 return HttpNotFound();
             }
             return View(movie);
-        }
+        
 
         // GET: Movies/Create
         public ActionResult Create()
